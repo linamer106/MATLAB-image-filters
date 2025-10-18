@@ -13,3 +13,8 @@ function [InvertedImgArray] = Invert(ImgArray)
 InvertedImgArray=255-ImgArray;
 
 end
+
+% % Call function:
+% img = uint8(rand(50,50,3)*255);
+% inverted = Invert(img);
+% imshow(inverted)

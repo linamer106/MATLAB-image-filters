@@ -80,3 +80,17 @@ ArrayColourB=ArrayLogicalCloserToHigh .* colours(1, 2, :);
 % Combining these arrays to get a final output image.
 TwoTonedImg=uint8(ArrayColourA + ArrayColourB);
 end
+
+% %Call function:
+% colour1(1,1,1:3) = [196 18 48];
+% colour2(1,1,1:3) = [90 180 90];
+% colours = uint8([colour1, colour2]);
+
+% weighting1(1,1,1:3) = [80 85 90];
+% weighting2(1,1,1:3) = [170 95 150];
+% weightings = uint8([weighting1, weighting2]);
+
+% img = uint8(rand(50,50,3)*255);
+
+% imshow(TwoTone(img, colours, weightings))
+

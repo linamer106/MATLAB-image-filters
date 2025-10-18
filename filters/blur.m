@@ -70,3 +70,8 @@ for i=1:height(ImgArray)
     end
 end
 end
+
+% %Call function:
+% img = imread('strawberry.png');
+% blurred = Blur(img, 5);
+% imshow(blurred)

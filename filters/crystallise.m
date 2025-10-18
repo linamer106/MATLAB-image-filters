@@ -32,3 +32,10 @@ for row=1:height(RGBimgArray)
     end
 end
 end
+
+% %Call function:
+% %Project Brief example
+% img = imread('Crystallise_example.png');
+% crystal_rows =    [3 4 2 5 1];
+% crystal_columns = [1 3 4 5 2]; 
+% imshow(Crystallise(img,crystal_rows,crystal_columns))

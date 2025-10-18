@@ -51,3 +51,8 @@ for row=1:height(ImgArray)
     end
 end
 end
+
+% % Call function:
+% img = imread('strawberry.png');
+% sketched = Sketch(img, 3);
+% imshow(sketched)

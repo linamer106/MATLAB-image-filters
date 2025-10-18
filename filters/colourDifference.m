@@ -47,3 +47,8 @@ for row=1:height(ColourArrayOne)
 end
 
 end
+
+% %Call function:
+% colour1(1,1,1:3) = uint8([206, 230, 78]);
+% colour2(1,1,1:3) = uint8([16, 196, 170]);
+% ColourDifference(colour1, colour2)
