@@ -1,4 +1,3 @@
-%Copy paste your Blur function implementation below.
 function [BlurredImg] = Blur(ImgArray, intensity)
 % The Blur function blurs the supplied image (RGB or greyscale) by finding
 % an average of the pixel colours surrounding each pixel.

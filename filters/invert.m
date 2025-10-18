@@ -1,4 +1,3 @@
-%Copy paste your Invert function implementation below.
 function [InvertedImgArray] = Invert(ImgArray)
 % The Invert function converts the supplied image (RGB or greyscale) to its
 % opposite colours(complementary hues) and returns the inverted image.
